@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+
+.vscode/
+
+backend/dist/
+admin-backend/dist/
