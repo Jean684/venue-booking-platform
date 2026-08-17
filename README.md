@@ -86,6 +86,7 @@ admin-frontend/   Admin interface
 
 
 
+
 ## Team
 
 Developed collaboratively by:
@@ -146,7 +147,7 @@ See the `.env.example` files in `backend/` and `admin-backend/` for the required
 
 Suggested screenshots:
 
-* Login / signup page
+* Login/signup page
 * Hirer venue browsing page
 * Vendor profile
 * Venue management page
@@ -181,7 +182,7 @@ Some of the main areas I gained experience with include:
 * Implementing authentication-related features
 * Working with multiple user roles
 * Using GraphQL for administrative functionality
-* Writing backend tests with Jest and Supertest
+* Writing backend tests with Jest and SuperTest
 * Managing collaborative development through Git and GitHub
 * Debugging and integrating work developed across multiple branches
 
