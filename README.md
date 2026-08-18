@@ -85,6 +85,7 @@ admin-frontend/   Admin interface
 
 
 
+
 ## Team
 
 Developed collaboratively by:
@@ -185,7 +186,7 @@ Some of the main areas I gained experience with include:
 * Implementing authentication-related features
 * Working with multiple user roles
 * Using GraphQL for administrative functionality
-* Writing backend tests with Jest and Supertest
+* Writing backend tests with Jest and SuperTest
 * Managing collaborative development through Git and GitHub
 * Debugging and integrating work developed across multiple branches
 
