@@ -30,7 +30,6 @@ admin-frontend/   Admin interface
 * Browse available venues
 * View venue information
 * Manage user profile
-* Browse and view venue listings
 * Submit ratings and reviews
 
 ### Vendor Features
@@ -93,7 +92,7 @@ Developed collaboratively by:
 * **Jean Rogers**
 * **Linh Le**
 
-RMIT University
+RMIT University  
 Full Stack Development — Semester 1, 2026
 
 ## My Contributions
@@ -142,15 +141,20 @@ See the `.env.example` files in `backend/` and `admin-backend/` for the required
 
 ## Screenshots
 
-*Add screenshots of the application here once the portfolio version is finalised.*
+### Hirer Dashboard
+![VenueHub Hirer Dashboard](./screenshots/hirer-dashboard.png)
 
-Suggested screenshots:
+### Hirer Saved Venues
+![VenueHub Hirer Saved Venues](./screenshots/savedvenues-page.png)
 
-* Login / signup page
-* Hirer venue browsing page
-* Vendor profile
-* Venue management page
-* Admin interface
+### Sign Up
+![VenueHub Sign Up](./screenshots/signup-page.png)
+
+### Sign In
+![VenueHub Sign In](./screenshots/signin-page.png)
+
+> **Note:** These screenshots were recovered from the original development period and from the locally runnable parts of the project. The original hosted database is no longer available, so some authenticated and data-driven pages could not be reproduced for the portfolio version.
+
 
 ## Known Limitations
 
