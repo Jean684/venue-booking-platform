@@ -1,19 +1,21 @@
-# Venue Booking Platform
+# Venue Booking Platform 🏛️
 
-A full-stack web application that connects **venue hirers** with **venue vendors**, allowing users to discover venues, manage venue listings, handle bookings, and interact with the platform through role-based features.
+A full-stack web application that connects **venue hirers** with **venue vendors**, allowing users to discover venues, manage listings, handle bookings and interact with the platform through different role-based experiences.
 
-This project was originally developed as a **team project at RMIT University during Semester 1, 2026** for the Full Stack Development course.
+This project was originally developed as a **team project at RMIT University during Semester 1, 2026** for the **Full Stack Development** course.
 
-## Overview
+---
 
-The platform was designed to support two main user groups:
+## 🔎 Overview
 
-* **Hirers** looking for venues for events
-* **Vendors** managing and advertising their venues
+The platform was designed around two main user groups:
 
-The application also includes a separate **admin interface and backend** for administrative functionality.
+- **Hirers** looking for venues for events
+- **Vendors** managing and advertising their venues
 
-The project is split into four main applications:
+The project also included a separate **admin interface and backend** for administrative functionality.
+
+The application was split into four main areas:
 
 ```text
 backend/          Main backend API
@@ -22,7 +24,7 @@ admin-backend/    Admin backend
 admin-frontend/   Admin interface
 ```
 
-## Features
+## ✨ Features
 
 ### Hirer Features
 
@@ -48,7 +50,7 @@ admin-frontend/   Admin interface
 * GraphQL-based backend functionality
 * Admin-specific testing and API operations
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
@@ -86,7 +88,7 @@ admin-frontend/   Admin interface
 
 
 
-## Team
+## 👥 Team
 
 Developed collaboratively by:
 
@@ -96,23 +98,26 @@ Developed collaboratively by:
 RMIT University  
 Full Stack Development — Semester 1, 2026
 
-## My Contributions
+## 👩‍💻 My Contributions
 
-My main contributions to the project included:
+My main contributions focused on authentication, vendor functionality and connecting the frontend with the backend.
 
-* Developing authentication and user-related functionality
-* Contributing to signup and login flows
-* Developing vendor profile functionality
-* Working on vendor-facing pages and features
-* Implementing venue creation, editing, and deletion functionality
-* Integrating frontend components with backend APIs
-* Contributing to backend functionality using Express, TypeORM, and SQL Server
-* Contributing to unit and API testing
-* Collaborating through Git and GitHub using branches, commits, and team-based development workflows
+I worked on:
+- Signup and login flows
+- User authentication functionality
+- Vendor profiles and vendor-facing pages
+- Venue creation, editing and deletion
+- Frontend and backend API integration
+- Backend functionality using Express, TypeORM and SQL Server
+- Unit and API testing
+- Debugging and integration work
+- Collaborative development using Git and GitHub
+  
+A large part of the project involved making sure independently developed pieces worked properly together, especially across the frontend and backend.
 
-> This was a collaborative team project. The features above describe my primary areas of contribution rather than the entire application being solely developed by me.
+> This was a collaborative team project. The features above describe my main areas of contribution rather than the entire application being developed solely by me.
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```text
 venue-booking-platform/
@@ -131,66 +136,68 @@ venue-booking-platform/
 └── README.md
 ```
 
-## Running Locally
+## 📦 Project Availability
 
-The project contains separate frontend, backend, admin frontend, and admin backend applications.
+The original hosted database used during development is no longer available, so the full application cannot currently be reproduced in its original state without additional database setup and configuration.
+The source code, project structure and recovered screenshots are preserved here for portfolio and review purposes.
+The backend projects still include .env.example files showing the database configuration that was originally required.
 
-Each service requires its own dependencies and the backend services require SQL Server database configuration through environment variables.
-
-See the `.env.example` files in `backend/` and `admin-backend/` for the required database settings.
-
-
-## Screenshots
+## 📸 Screenshots
 
 ### Hirer Dashboard
 ![VenueHub Hirer Dashboard](./screenshots/hirer-dashboard.png)
 
+Main hirer dashboard for browsing available venues and viewing key venue information.
+
 ### Hirer Saved Venues
 ![VenueHub Hirer Saved Venues](./screenshots/savedvenues-page.png)
+
+Saved venues page allowing users to review shortlisted venues.
 
 ### Sign Up
 ![VenueHub Sign Up](./screenshots/signup-page.png)
 
+Registration flow supporting different user account types.
+
 ### Sign In
 ![VenueHub Sign In](./screenshots/signin-page.png)
+
+Login flow for accessing role-based features within the platform.
 
 > **Note:** These screenshots were recovered from the original development period and from the locally runnable parts of the project. The original hosted database is no longer available, so some authenticated and data-driven pages could not be reproduced for the portfolio version.
 
 
-## Known Limitations
+## ⚠️ Known Limitations
 
-This project was developed within the scope and timeframe of a university team assessment.
+This project was developed within the scope and timeframe of a university team assessment, so some areas would need more work before being production-ready.
 
-Some functionality may require additional configuration or development before being considered production-ready.
+Possible future improvements include:
 
-Areas for future improvement could include:
+- Production deployment
+- Improved error handling and validation
+- Additional automated testing
+- Better responsive design
+- More comprehensive authentication and authorisation
+- Further accessibility improvements
+- Expanded booking and venue-management functionality
 
-* Production deployment
-* Improved error handling and validation
-* Additional automated testing
-* Improved responsive design
-* More comprehensive authentication and authorisation
-* Further accessibility improvements
-* Expanded booking and venue-management functionality
-
-
-## What I Learned
+## 🎯 What I Learned
 
 This project gave me practical experience working on a larger full-stack application as part of a development team.
 
-Some of the main areas I gained experience with include:
-
-* Connecting a React frontend to backend APIs
-* Building REST API functionality with Express
-* Working with TypeORM and SQL Server
-* Implementing authentication-related features
-* Working with multiple user roles
-* Using GraphQL for administrative functionality
-* Writing backend tests with Jest and SuperTest
-* Managing collaborative development through Git and GitHub
-* Debugging and integrating work developed across multiple branches
-
-## Attribution
+It strengthened my understanding of:
+- Connecting a React frontend to backend APIs
+- Building REST API functionality with Express
+- Working with TypeORM and SQL Server
+- Implementing authentication-related features
+- Working with multiple user roles
+- Using GraphQL for administrative functionality
+- Writing backend tests with Jest and Supertest
+- Managing collaborative development through Git and GitHub
+- Debugging and integrating work developed across multiple branches
+  
+One of the biggest things I learned was how much full-stack development depends on getting separate pieces to work together properly, not just building each feature in isolation.
+## 📌 Attribution
 
 This project was developed collaboratively at **RMIT University** for the **Full Stack Development** course during **Semester 1, 2026**.
 
